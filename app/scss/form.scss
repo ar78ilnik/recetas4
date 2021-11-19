@@ -1,0 +1,44 @@
+/* Form */
+.form {
+	position: relative;
+	width: 290px;
+	color: var(--border);
+	&_recipe {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	&__fieldset {
+		border: 0;
+	}
+	&__personal {
+		display: flex;
+	}
+	&__input {
+		border-radius: 23px;
+		border: 1px solid var(--border);
+		width: 100%;
+		font-size: 0.875rem;
+		padding: 0.875em 1.375em;
+		&_radio {
+			width: auto;
+			border: 0;
+		}
+	}
+	&__input:active {
+		border: 1px solid var(--border);
+	}
+	&__submit {
+		border-radius: 20px;
+		border: 1px solid var(--border);
+		background-color: var(--white);
+		cursor: pointer;
+	}
+	&__submit_words {
+		position: absolute;
+		right: 0;
+		top: 0;
+		font-size: 0.875rem;
+		padding: 0.875em 1.375em;
+	}
+}

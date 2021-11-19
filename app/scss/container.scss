@@ -1,0 +1,27 @@
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+	.container {
+		width: 96%;
+		&_aside {
+			width: 290px;
+		}
+	}
+}
+
+@media (min-width: 1440px) {
+	.container {
+		width: 90%;
+		&_main {
+			display: grid;
+			grid-template-columns: 2fr 1fr;
+			grid-template-rows: min-content auto;
+		}
+		&_icon {
+			display: none;
+		}
+	}
+}

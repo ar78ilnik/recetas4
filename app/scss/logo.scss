@@ -1,0 +1,14 @@
+/* Logo */
+.logo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 32px 18px;
+	&__recetas {
+		text-align: center;
+		font-size: 1.75rem;
+	}
+	&__dop {
+		font-size: 1.125rem;
+	}
+}

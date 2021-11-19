@@ -1,0 +1,30 @@
+.link {
+	display: inline-block;
+	text-decoration: none;
+	color: var(--border);
+	&_general {
+		padding: 14px 23px;
+		border: 1px var(--border) solid;
+		border-radius: 20px;
+		margin: 3.75rem auto;
+	}
+	&_menu {
+		display: block;
+		padding-top: 1em;
+		padding-bottom: 1em;
+	}
+}
+
+@media (min-width: 768px) {
+	.link {
+		order: 4;
+	}
+}
+
+@media (min-width: 1440px) {
+	.link {
+		&_menu {
+			width: 100%;
+		}
+	}
+}

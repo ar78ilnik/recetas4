@@ -1,0 +1,25 @@
+/* Next */
+.next {
+	display: flex;
+	justify-content: space-between;
+	font-size: 0.875rem;
+	&__previus,
+	&__follow {
+		position: relative;
+		color: var(--text);
+	}
+	&__previus::after {
+		content: 'Предыдущий';
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 30px;
+	}
+	&__follow::after {
+		content: 'Следующий';
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 30px;
+	}
+}
