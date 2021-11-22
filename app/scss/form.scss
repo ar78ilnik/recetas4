@@ -1,7 +1,7 @@
 /* Form */
 .form {
 	position: relative;
-	width: 290px;
+	max-width: 290px;
 	color: var(--border);
 	&_recipe {
 		display: flex;

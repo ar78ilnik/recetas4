@@ -1,6 +1,10 @@
 .container {
 	width: 90%;
 	margin: 0 auto;
+	&_icon {
+		display: flex;
+		justify-content: center;
+	}
 }
 
 @media (min-width: 768px) {
