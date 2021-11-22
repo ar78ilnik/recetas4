@@ -113,7 +113,7 @@ function watch() {
     gulp.watch('app/scss/*.scss', style);
     gulp.watch('app/js/**/*.js', js);
     gulp.watch('app/fonts/*.{woff, woff2}', copy);
-    gulp.watch('app/img/**/*.jpg', toWebp);
+    gulp.watch('app/img/**/*.jpg', images);
     gulp.watch('app/img/**/*.svg', sprite);
 };
 

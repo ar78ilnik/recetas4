@@ -1,7 +1,6 @@
 {
   "name": "recetas",
   "version": "1.0.0",
-  "description": "",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -33,5 +32,6 @@
     "gulp-webp": "^4.0.1",
     "postcss": "^8.3.11",
     "sass": "^1.43.4"
-  }
+  },
+  "description": ""
 }
