@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.min.css">
+		<title>Флан</title>
+	</head>
+	<body class="body">
+		<h1 class="title title_h1">Рецепт флана</h1>
+		<div class="container container_main">
+			@@include('html_components/_header.html')
+			<main class="main block-1">
+				<div class="blocks">
+					<section class="block block-2">
+						<div class="today">
+							<span class="today__title">#Сегодня читают ></span>
+							<span class="today__read">
+								<span class="today__elem">#теги</span>
+								<span class="today__elem">#теги</span>
+								<span class="today__elem">#теги</span>
+							</span>
+						</div>
+					</section>
+					<div class="blocks__item block block-2">
+						<div class="block__meta">
+							<span class="block__title">Десерты</span>
+							<svg class="icon icon_dot" viewBox="0 0 5 5">
+								<use xlink:href="img/sprite.svg#dot"></use>
+							</svg>
+							<span class="block__date">Июль 18, 2021г.</span>
+						</div>
+						<div class="block__picture">
+							<picture>
+								<!--
+								<source srcset="img/post1-desktop@1x.avif" media="(min-width: 1440px)" type="image/avif"/>
+								<source srcset="img/post1-desktop@1x.webp" media="(min-width: 1440px)" type="image/webp"/>
+								<source srcset="img/post1-desktop@1x.jpg" media="(min-width: 1440px)" type="image/jpeg"/>
+								<source srcset="img/post1-tablet@1x.avif" media="(min-width: 768px)" type="image/avif"/>
+								<source srcset="img/post1-tablet@1x.webp" media="(min-width: 768px)" type="image/webp"/>
+								<source srcset="img/post1-tablet@1x.jpg" media="(min-width: 768px)" type="image/jpeg"/>
+								<source srcset="img/post1-mobile@1x.avif" type="image/avif"/>
+								<source srcset="img/post1-mobile@1x.webp" type="image/webp"/>
+								-->
+								<img
+								srcset="
+								img/post1-mobile@1x.jpg 320w,
+								img/post1-tablet@1x.jpg 768w"
+								src="img/post1-mobile@1x.jpg"
+								sizes="100vw">
+							</picture>
+						</div>
+						<div class="block__share">
+							<div class="block__likes">
+								<div class="block__like">
+									<svg class="icon icon_recipe" viewBox="0 0 10 10">
+										<use xlink:href="img/sprite.svg#like"></use>
+									</svg>
+									<span class="block__like-count">15</span>
+								</div>
+								<div class="block__comment">
+									<svg class="icon icon_recipe" viewBox="0 0 10 10">
+										<use xlink:href="img/sprite.svg#comment"></use>
+									</svg>
+									<span class="block__comment-count">6</span>
+								</div>
+							</div>
+						</div>
+						<article class="block block-3">
+							<h3 class="title title_h3">Флан (flan cacero)</h3>
+							<div class="block block-4">
+								<div class="block__info">
+									<div class="block__elem">
+										<div class="card__icon">
+											<svg class="icon icon_info">
+												<use xlink:href="img/sprite.svg#time">
+											</svg>
+										</div>
+										<span class="card__time">минут</span>
+									</div>
+									<div class="block__elem">
+										<div class="card__icon">
+											<svg class="icon icon_info">
+												<use xlink:href="img/sprite.svg#kcal">
+											</svg>
+										</div>
+										<span class="card__kkal">ккал</span>
+									</div>
+								</div>
+							</div>
+							<p class="block__text">Были в Испании времена, когда это простое блюдо было королем в меню ресторанов Испании. В дальнейшем этот скромный десерт был изменен и дополнен шеф-поварами лучших ресторанов Испании. Кто-то заменял молоко на сливки или на их смесь. Кто-то использовал только желтки или добавлял сгущенное молоко. В самых изощренных использовались яйца с синей скорлупой от арауканских кур.</p>
+						</article>
+						<div class="block__links">
+							<a href="recetas.html" class="link link_general">Распечатать рецепт</a>
+							<a href="recetas.html" class="link link_general">Шопинг лист</a>
+						</div>
+					</div>
+					<div class="blocks__item block block-2">
+						<h2 class="title title_h2">ИНГРЕДИЕНТЫ:</h2>
+						<div class="block-3">
+							<select name="persons" id="persons_id" class="blocks__select">
+								<option value="1">Выберите количество</option>
+								<option value="person_1">На 1 человека</option>
+								<option value="person_2">На 2 человек</option>
+								<option value="person_3">На 3 человек</option>
+								<option value="person_4">На 4 человека</option>
+							</select>
+							<table class="blocks__table table">
+								<caption class="table__caption">Список ингредиентов</caption>
+								<tbody>
+									<tr class="table__row">
+										<td>Молоко</td>
+										<td>0,5 л.</td>
+									</tr>
+									<tr class="table__row">
+										<td>Сахар</td>
+										<td>125 гр.</td>
+									</tr>
+									<tr class="table__row">
+										<td>Яйца (среднего размера)</td>
+										<td>3 шт.</td>
+									</tr>
+									<tr class="table__row">
+										<td>Немного кожи лимона или апельсина</td>
+										<td>1 шт.</td>
+									</tr>
+									<tr class="table__row">
+										<td>Палочка корицы</td>
+										<td>1 шт.</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</main>
+		</div>
+	</body>
+	<script src="js/script.js"></script>
+</html>

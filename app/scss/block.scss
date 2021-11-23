@@ -28,6 +28,9 @@
 	&__picture {
 		margin: 1rem auto;
 	}
+	&__links {
+		align-self: center;
+	}
 	&__likes {
 		display: flex;
 	}
@@ -58,7 +61,6 @@
 		}
 		&__text {
 			order: 2;
-			width: 80%;
 			margin: 0 auto;
 		}
 	}
