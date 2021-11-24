@@ -5,6 +5,11 @@
 		display: flex;
 		justify-content: center;
 	}
+	&_comments {
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+	}
 }
 
 @media (min-width: 768px) {

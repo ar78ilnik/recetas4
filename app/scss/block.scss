@@ -56,10 +56,21 @@
 		border-bottom: 5px solid var(--green);
 	}
 	&__author {
-		width: 54px;
-		height: 54px;
-		border: 1px solid var(--border);
+		display: flex;
+		column-gap: 15px;
+	}
+	&__img {
+		border: 2px solid var(--border);
 		border-radius: 50%;
+	}
+	&__date {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	&__year {
+		font-size: 0.875rem;
+		color: var(--light);
 	}
 }
 

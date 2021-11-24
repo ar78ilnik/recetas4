@@ -1,6 +1,9 @@
 /* Table */
 .table {
 	font-size: 0.875rem;
+	&__caption {
+		display: none;
+	}
 	&__row td {
 		padding: 10px;
 		border-bottom: 2px dotted var(--border);
