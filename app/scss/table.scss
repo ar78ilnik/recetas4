@@ -1,8 +1,8 @@
 /* Table */
 .table {
 	font-size: 0.875rem;
-	&__row {
-		padding-top: 1em;
-		padding-bottom: 1em;
+	&__row td {
+		padding: 10px;
+		border-bottom: 2px dotted var(--border);
 	}
 }
