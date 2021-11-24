@@ -55,6 +55,12 @@
 		border-top: 5px solid var(--green);
 		border-bottom: 5px solid var(--green);
 	}
+	&__author {
+		width: 54px;
+		height: 54px;
+		border: 1px solid var(--border);
+		border-radius: 50%;
+	}
 }
 
 @media (min-width: 768px) {
