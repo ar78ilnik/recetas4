@@ -9,3 +9,11 @@
 		fill: var(--green);
 	}
 }
+
+@media (min-width: 768px) {
+	.icon {
+		&_dot {
+			display: none;
+		}
+	}
+}

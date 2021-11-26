@@ -282,8 +282,40 @@
 					</div>
 				</div>
 			</section>
+			<section class="block block-2">
+				<form action="" class="form">
+					<fieldset class="form__fieldset">
+						<p class="form__input-wrapper">
+							<input class="form__input form__input_comments" type="text" id="name" id="name" name="name" placeholder="Имя*">
+						</p>
+						<p class="form__input-wrapper">
+							<input class="form__input form__input_comments" type="text" id="email" id="email" name="email" placeholder="Электонный адрес*">
+						</p>
+						<p class="form__input-wrapper">
+							<textarea class="form__input form__input_comments" id="text" name="text" placeholder="Комментарий*" rows="10"></textarea>
+						</p>
+					</fieldset>
+					<fieldset class="form__fieldset">
+						<p class="form__input-wrapper form__input-wrapper_radio">
+							<input class="form__input form__input_radio" type="radio" id="radio" name="radio" value="true">
+							<label class="form__label" for="radio" required="required">Я даю свое согласие на обработку пресональных данных</label>
+						</p>
+					</fieldset>
+					<div class="block__links">
+						<button class="link link_general" type="submit">Отправить комментарий</button>
+					</div>
+				</form>
+			</section>
 		</div>
 	</main>
+	<section class="aside block-1">
+		<div class="blocks">
+			@@include('html_components/_ideal.html')
+			@@include('html_components/_alphabetical.html')
+			@@include('html_components/_new.html')
+			@@include('html_components/_tags.html')
+		</div>
+	</section>
 </div>
 </body>
 <script src="js/script.js"></script>

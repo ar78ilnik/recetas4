@@ -2,7 +2,8 @@
 .form {
 	position: relative;
 	max-width: 290px;
-	color: var(--border);
+	color: var(--light);
+	width: 100%;
 	&_recipe {
 		display: flex;
 		flex-direction: column;
@@ -10,6 +11,12 @@
 	}
 	&__fieldset {
 		border: 0;
+		&_radio {
+			display: flex;
+		}
+	}
+	&__fieldset textarea {
+		font-family: Inter, sans-serif;
 	}
 	&__personal {
 		display: flex;
@@ -21,9 +28,18 @@
 		font-size: 0.875rem;
 		padding: 0.875em 1.375em;
 		&_radio {
-			width: auto;
-			border: 0;
+			flex-basis: 10%;
 		}
+	}
+	&__label {
+		font-size: 0.875rem;
+		font-weight: 700;
+		color: var(--border);
+	}
+	&__input_comments {
+		background-color: var(--form);
+		border: 1px solid var(--light);
+		border-radius: 10px;
 	}
 	&__input:active {
 		border: 1px solid var(--border);
@@ -40,5 +56,13 @@
 		top: 0;
 		font-size: 0.875rem;
 		padding: 0.875em 1.375em;
+	}
+	&__input-wrapper {
+		margin-bottom: 1em;
+		&_radio {
+			display: flex;
+			column-gap: 15px;
+			align-items: flex-start;
+		}
 	}
 }
