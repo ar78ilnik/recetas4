@@ -8,189 +8,26 @@
 	</head>
 	<body class="body">
 		<h1 class="title title_h1">Испанские рецепты</h1>
-		<div class="container container_main">
-			@@include('html_components/_header.html')
-			<main class="main block-1">
-				<section class="block block-2">
-					<div class="today">
-						<span class="today__title">#Сегодня читают ></span>
-						<span class="today__read">
-							<span class="today__elem">#теги</span>
-							<span class="today__elem">#теги</span>
-							<span class="today__elem">#теги</span>
-						</span>
-					</div>
-				</section>
-				<h2 class="title title_h2">Последние посты</h2>
-				<section class="blocks">
-					<div class="blocks__item block block-2">
-						<div class="block__meta">
-							<span class="block__title">Десерты</span>
-							<svg class="icon icon_dot" viewBox="0 0 5 5">
-								<use xlink:href="img/sprite.svg#dot"></use>
-							</svg>
-							<span class="block__date">Июль 18, 2021г.</span>
-						</div>
-						<div class="block__picture">
-							<picture>
-								<!--
-								<source srcset="img/post1-desktop@1x.avif" media="(min-width: 1440px)" type="image/avif"/>
-								<source srcset="img/post1-desktop@1x.webp" media="(min-width: 1440px)" type="image/webp"/>
-								<source srcset="img/post1-desktop@1x.jpg" media="(min-width: 1440px)" type="image/jpeg"/>
-								<source srcset="img/post1-tablet@1x.avif" media="(min-width: 768px)" type="image/avif"/>
-								<source srcset="img/post1-tablet@1x.webp" media="(min-width: 768px)" type="image/webp"/>
-								<source srcset="img/post1-tablet@1x.jpg" media="(min-width: 768px)" type="image/jpeg"/>
-								<source srcset="img/post1-mobile@1x.avif" type="image/avif"/>
-								<source srcset="img/post1-mobile@1x.webp" type="image/webp"/>
-								-->
-								<img
-								srcset="
-								img/post1-mobile@1x.jpg 320w,
-								img/post1-tablet@1x.jpg 768w"
-								src="img/post1-mobile@1x.jpg"
-								sizes="100vw">
-							</picture>
-						</div>
-						<div class="block__share">
-							<div class="block__likes">
-								<div class="block__like">
-									<svg class="icon icon_recipe" viewBox="0 0 10 10">
-										<use xlink:href="img/sprite.svg#like"></use>
-									</svg>
-									<span class="block__like-count">15</span>
-								</div>
-								<div class="block__comment">
-									<svg class="icon icon_recipe" viewBox="0 0 10 10">
-										<use xlink:href="img/sprite.svg#comment"></use>
-									</svg>
-									<span class="block__comment-count">6</span>
-								</div>
-							</div>
-						</div>
-						<article class="block block-3">
-							<h3 class="title title_h3">Флан (flan cacero)</h3>
-							<div class="block block-4">
-								<div class="block__info">
-									<div class="block__elem">
-										<div class="card__icon">
-											<svg class="icon icon_info">
-												<use xlink:href="img/sprite.svg#time">
-											</svg>
-										</div>
-										<span class="card__time">минут</span>
-									</div>
-									<div class="block__elem">
-										<div class="card__icon">
-											<svg class="icon icon_info">
-												<use xlink:href="img/sprite.svg#kcal">
-											</svg>
-										</div>
-										<span class="card__kkal">ккал</span>
-									</div>
-								</div>
-							</div>
-							<p class="block__text">Были в Испании времена, когда это простое блюдо было королем в меню ресторанов Испании. В дальнейшем этот скромный десерт был изменен и дополнен шеф-поварами лучших ресторанов Испании. Кто-то заменял молоко на сливки или на их смесь. [...]</p>
-						</article>
-						<div class="block__links">
-							<a href="recetas.html" class="link link_general">ПРОДОЛЖИТЬ ЧТЕНИЕ</a>
-						</div>
-					</div>
-					<div class="blocks__item block block-2">
-						<div class="block__meta">
-							<span class="block__title">Десерты</span>
-							<svg class="icon icon_dot" viewBox="0 0 5 5">
-								<use xlink:href="img/sprite.svg#dot"></use>
-							</svg>
-							<span class="block__date">Июль 18, 2021г.</span>
-						</div>
-						<div class="block__picture">
-							<picture>
-								<!--
-								<source srcset="img/post1-desktop@1x.avif" media="(min-width: 1440px)" type="image/avif"/>
-								<source srcset="img/post1-desktop@1x.webp" media="(min-width: 1440px)" type="image/webp"/>
-								<source srcset="img/post1-desktop@1x.jpg" media="(min-width: 1440px)" type="image/jpeg"/>
-								<source srcset="img/post1-tablet@1x.avif" media="(min-width: 768px)" type="image/avif"/>
-								<source srcset="img/post1-tablet@1x.webp" media="(min-width: 768px)" type="image/webp"/>
-								<source srcset="img/post1-tablet@1x.jpg" media="(min-width: 768px)" type="image/jpeg"/>
-								<source srcset="img/post1-mobile@1x.avif" type="image/avif"/>
-								<source srcset="img/post1-mobile@1x.webp" type="image/webp"/>
-								-->
-								<img
-								srcset="
-								img/post2-mobile@1x.jpg 320w,
-								img/post1-tablet@1x.jpg 768w"
-								src="img/post1-mobile@1x.jpg"
-								sizes="100vw">
-							</picture>
-						</div>
-						<div class="block__share">
-							<div class="block__likes">
-								<div class="block__like">
-									<svg class="icon icon_recipe" viewBox="0 0 10 10">
-										<use xlink:href="img/sprite.svg#like"></use>
-									</svg>
-									<span class="block__like-count">15</span>
-								</div>
-								<div class="block__comment">
-									<svg class="icon icon_recipe" viewBox="0 0 10 10">
-										<use xlink:href="img/sprite.svg#comment"></use>
-									</svg>
-									<span class="block__comment-count">6</span>
-								</div>
-							</div>
-						</div>
-						<article class="block block-3">
-							<h3 class="title title_h3">Мифы и легенды валенсийской паэльи: что правда, а что фольклор и как приготовить отличную паэлью</h3>
-							<div class="block block-4">
-								<div class="block__info">
-									<div class="block__elem">
-										<div class="card__icon">
-											<svg class="icon icon_info">
-												<use xlink:href="img/sprite.svg#time">
-											</svg>
-										</div>
-										<span class="card__time">минут</span>
-									</div>
-									<div class="block__elem">
-										<div class="card__icon">
-											<svg class="icon icon_info">
-												<use xlink:href="img/sprite.svg#kcal">
-											</svg>
-										</div>
-										<span class="card__kkal">ккал</span>
-									</div>
-								</div>
-							</div>
-							<p class="block__text">Согласно словарю Королевской Академии Испанского языка - паэлья это "блюдо из сухого риса с мясом, рыбой, морепродуктами, овощами и т.д. типичное для региона Валенсия, в Испании". [...]</p>
-						</article>
-						<a href="#" class="link link_general">ПРОДОЛЖИТЬ ЧТЕНИЕ</a>
-					</div>
-					<div class="next">
-						<a class="next__previus" href="#">
-							<svg class="icon icon_recipe" viewBox="0 0 10 10">
-								<use xlink:href="img/sprite.svg#arrow-left"></use>
-							</svg>
-						</a>
-						<a class="next__follow" href="#">
-							<svg class="icon icon_recipe" viewBox="0 0 10 10">
-								<use xlink:href="img/sprite.svg#arrow-right"></use>
-							</svg>
-						</a>
-					</div>
-				</section>
-			</main>
-			<section class="aside block-1">
-				<div class="blocks">
-					@@include('html_components/_hola.html')
-					@@include('html_components/_ideal.html')
-					@@include('html_components/_alphabetical.html')
-					@@include('html_components/_new.html')
-					@@include('html_components/_tags.html')
+		@@include('html_components/_header.html')
+		<main class="main">
+			<div class="container container_main">
+				@@include('html_components/_today.html')
+				@@include('html_components/_title.html')
+				<div class="container container_recipes">
+					@@include('html_components/_recipe.html')
+					@@include('html_components/_recipe.html')
+					@@include('html_components/_recipe.html')
 				</div>
-			</section>
-		</div>
+				@@include('html_components/_next.html')
+				@@include('html_components/_hola.html')
+				@@include('html_components/_ideal.html')
+				@@include('html_components/_category.html')
+				@@include('html_components/_alphabetical.html')
+				@@include('html_components/_new.html')
+				@@include('html_components/_tags.html')
+			</div>
+		</main>
 		@@include('html_components/_footer.html')
-		<div class="body__back"></div>
 	</body>
 	<script src="js/script.js"></script>
 </html>

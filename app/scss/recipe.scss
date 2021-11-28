@@ -1,0 +1,22 @@
+/* Recipe */
+.recipe {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	&__likes {
+		display: flex;
+	}
+	&__picture {
+		margin: 1em 0;
+	}
+	&__share {
+		margin-bottom: 1em;
+	}
+	&__info {
+		display: none;
+	}
+	&__info-wrapper {
+		display: flex;
+		column-gap: 1em;
+	}
+}

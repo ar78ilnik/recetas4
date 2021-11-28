@@ -1,0 +1,10 @@
+/* Today */
+.today {
+	display: none;
+}
+@media screen and (min-width: 1440px) {
+	.today {
+		grid-column: 1/2;
+		grid-row: 1/2;
+	}
+} 

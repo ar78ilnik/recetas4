@@ -1,7 +1,6 @@
 /* Form */
 .form {
 	position: relative;
-	max-width: 290px;
 	color: var(--light);
 	width: 100%;
 	&_recipe {
@@ -11,6 +10,7 @@
 	}
 	&__fieldset {
 		border: 0;
+		width: 100%;
 		&_radio {
 			display: flex;
 		}
@@ -28,7 +28,7 @@
 		font-size: 0.875rem;
 		padding: 0.875em 1.375em;
 		&_radio {
-			flex-basis: 10%;
+			flex-basis: 20px;
 		}
 	}
 	&__label {
@@ -63,6 +63,27 @@
 			display: flex;
 			column-gap: 15px;
 			align-items: flex-start;
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.form {
+		&__fieldset {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+		&__input-wrapper {
+			&:nth-child(1) {
+				flex-basis: 45%;
+			}
+			&:nth-child(2) {
+				flex-basis: 45%;
+			}
+			&:last-child {
+				flex-basis: 100%;
+			}
 		}
 	}
 }

@@ -1,0 +1,12 @@
+/* Hola */
+.hola {
+	&__text {
+		margin-bottom: 1em;
+	}
+}
+@media (min-width: 1440px) {
+	.hola {
+		grid-column: 2/3;
+		grid-row: 3/6;
+	}
+}

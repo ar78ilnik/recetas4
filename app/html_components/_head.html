@@ -1,0 +1,68 @@
+<section class="block block-2">
+	<div class="block__meta">
+		<span class="block__date">Июль 18, 2021г.</span>
+	</div>
+	<div class="block__picture">
+		<picture>
+			<!--
+			<source srcset="img/post1-desktop@1x.avif" media="(min-width: 1440px)" type="image/avif"/>
+			<source srcset="img/post1-desktop@1x.webp" media="(min-width: 1440px)" type="image/webp"/>
+			<source srcset="img/post1-desktop@1x.jpg" media="(min-width: 1440px)" type="image/jpeg"/>
+			<source srcset="img/post1-tablet@1x.avif" media="(min-width: 768px)" type="image/avif"/>
+			<source srcset="img/post1-tablet@1x.webp" media="(min-width: 768px)" type="image/webp"/>
+			<source srcset="img/post1-tablet@1x.jpg" media="(min-width: 768px)" type="image/jpeg"/>
+			<source srcset="img/post1-mobile@1x.avif" type="image/avif"/>
+			<source srcset="img/post1-mobile@1x.webp" type="image/webp"/>
+			-->
+			<img
+			srcset="
+			img/post1-mobile@1x.jpg 320w,
+			img/post1-tablet@1x.jpg 768w"
+			src="img/post1-mobile@1x.jpg"
+			sizes="100vw">
+		</picture>
+	</div>
+	<div class="block__share">
+		<div class="block__likes">
+			<div class="block__like">
+				<svg class="icon icon_recipe" viewBox="0 0 10 10">
+					<use xlink:href="img/sprite.svg#like"></use>
+				</svg>
+				<span class="block__like-count">15</span>
+			</div>
+			<div class="block__comment">
+				<svg class="icon icon_recipe" viewBox="0 0 10 10">
+					<use xlink:href="img/sprite.svg#comment"></use>
+				</svg>
+				<span class="block__comment-count">6</span>
+			</div>
+		</div>
+	</div>
+	<article class="block block-3">
+		<h2 class="title title_h2">Флан (flan cacero)</h2>
+		<div class="block block-4">
+			<div class="block__info">
+				<div class="block__elem">
+					<div class="card__icon">
+						<svg class="icon icon_info">
+							<use xlink:href="img/sprite.svg#time">
+						</svg>
+					</div>
+					<span class="card__time">минут</span>
+				</div>
+				<div class="block__elem">
+					<div class="card__icon">
+						<svg class="icon icon_info">
+							<use xlink:href="img/sprite.svg#kcal">
+						</svg>
+					</div>
+					<span class="card__kkal">ккал</span>
+				</div>
+			</div>
+		</div>
+		<p class="block__text">Были в Испании времена, когда это простое блюдо было королем в меню ресторанов Испании. В дальнейшем этот скромный десерт был изменен и дополнен шеф-поварами лучших ресторанов Испании. Кто-то заменял молоко на сливки или на их смесь. Кто-то использовал только желтки или добавлял сгущенное молоко. В самых изощренных использовались яйца с синей скорлупой от арауканских кур.</p>
+	</article>
+	<div class="block__links">
+		<a href="recetas.html" class="link link_general">Распечатать рецепт</a>
+	</div>
+</section>
