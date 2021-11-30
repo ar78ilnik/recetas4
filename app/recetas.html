@@ -8,23 +8,25 @@
 	</head>
 	<body class="body">
 		<h1 class="title title_h1">Рецепт флана</h1>
-		<div class="container container_main">
-			@@include('html_components/_header.html')
-			<main class="main block-1">
+		@@include('html_components/_header.html')
+		<main class="main">
+			<div class="container container_recetas-main">
 				@@include('html_components/_today.html')
-				@@include('html_components/_head.html')
+				@@include('html_components/_recipe-recetas.html')
 				@@include('html_components/_ingredients.html')
 				@@include('html_components/_preparation.html')
 				@@include('html_components/_social.html')
+				@@include('html_components/_category.html')
 				@@include('html_components/_comments.html')
-				@@include('html_components/_form.html')
+				@@include('html_components/_form-content.html')
 				@@include('html_components/_ideal.html')
 				@@include('html_components/_alphabetical.html')
 				@@include('html_components/_new.html')
 				@@include('html_components/_tags.html')
-			</main>
-		</div>
+			</div>
+		</main>
 		@@include('html_components/_footer.html')
+		<div class="body__back"></div>
 	</body>
 	<script src="js/script.js"></script>
 </html>

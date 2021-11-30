@@ -2,6 +2,10 @@
 @media(min-width: 1440px) {
 	.new {
 		grid-column: 2/3;
-		grid-row: 12/15;
+		grid-row: 9/11;
+		&_recipe {
+			grid-column: 2/3;
+			grid-row: 7/8;
+		}
 	}
 }

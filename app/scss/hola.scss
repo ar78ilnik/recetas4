@@ -4,9 +4,25 @@
 		margin-bottom: 1em;
 	}
 }
+@media (min-width: 768px) {
+	.hola {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		&__text {
+			order: 2;
+			margin-bottom: 0;
+		}
+		&__picture {
+			flex-basis: auto;
+			order: 0;
+		}
+	}
+}
 @media (min-width: 1440px) {
 	.hola {
+		align-items: flex-end;
 		grid-column: 2/3;
-		grid-row: 3/6;
+		grid-row: 3/5;
 	}
 }

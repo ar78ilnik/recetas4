@@ -21,7 +21,7 @@
 		&_h3 {
 			font-size: 1.5rem;
 		}
-		&_hello {
+		&_hola {
 			order: 1;
 			align-self: center;
 		}
@@ -32,5 +32,8 @@
 	.title {
 		grid-column: 1/2;
 		grid-row: 2/3;
+		&_hola {
+			align-self: flex-end;
+		}
 	}
 }

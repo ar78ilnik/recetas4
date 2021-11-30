@@ -4,6 +4,7 @@
 }
 @media screen and (min-width: 1440px) {
 	.today {
+		display: block;
 		grid-column: 1/2;
 		grid-row: 1/2;
 	}

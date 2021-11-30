@@ -1,6 +1,6 @@
 /* Header */
 .header {
-	margin-bottom: 2rem;
+	margin-bottom: 3rem;
 	&__menu {
 		border-top: 1px var(--border) solid;
 		border-bottom: 1px var(--border) solid;
@@ -27,5 +27,13 @@
 		transform: rotate(90deg);
 		transition-property: transform;
 		transition-duration: 1s;
+	}
+}
+
+@media (min-width: 1280px) {
+	.header {
+		width: 1280px;
+		margin: 0 auto;
+		margin-bottom: 3rem;
 	}
 }

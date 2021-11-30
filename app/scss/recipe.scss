@@ -20,3 +20,20 @@
 		column-gap: 1em;
 	}
 }
+
+@media (min-width: 768px) {
+	.recipe {
+		&__share {
+			align-self: flex-end;
+		}
+	}
+}
+
+@media (min-width: 1440px) {
+	.recipe-recetas {
+		&_full {
+		grid-column: 1/2;
+		grid-row: 2/4;
+		}
+	}
+}

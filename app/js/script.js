@@ -14,6 +14,7 @@
     menuClose.addEventListener('click', function() {
         let expanded = mainBlock.getAttribute('aria-expanded') === 'true' || false;
         menuMain.classList.toggle('menu_opened');
+        console.log('1');
         bodyBack.classList.toggle('body__back_opened');
         mainBlock.setAttribute('aria-expanded', !expanded);
         svgImg.classList.toggle('header__svg_rotated');

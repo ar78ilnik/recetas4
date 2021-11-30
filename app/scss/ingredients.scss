@@ -1,0 +1,9 @@
+/* ingredients */
+@media (min-width: 1440px) {
+	.ingredients {
+		&_recipe {
+			grid-column: 2/3;
+			grid-row: 2/3;
+		}
+	}
+}
