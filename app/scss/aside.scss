@@ -1,12 +1,12 @@
 /* Aside */
 .aside {
+	margin-bottom: 3rem;
 	&__date {
 		font-size: 0.75em;
 	}
 }
 @media (min-width: 1440px) {
 	.aside {
-		grid-column: 2/3;
-		grid-row: 2/3;
+		flex-basis: 40%;
 	}
 }

@@ -1,11 +1,8 @@
 /* Category */
+.category {
+	margin-bottom: 2rem;
+}
 @media (min-width: 1440px) {
 	.category {
-		grid-column: 2/3;
-		grid-row: 5/7;
-		&_recipe {
-			grid-column: 2/3;
-			grid-row: 4/5;
-		}
 	}
 }

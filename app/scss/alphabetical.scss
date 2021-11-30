@@ -1,11 +1,8 @@
 /* Alphabetical */
+.alphabetical {
+	margin-bottom: 2rem;
+}
 @media (min-width: 1440px) {
 	.alphabetical {
-		grid-column: 2/3;
-		grid-row: 7/9;
-		&_recipe {
-			grid-column: 2/3;
-			grid-row: 5/6;
-		}
 	}
 }

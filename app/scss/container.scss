@@ -1,9 +1,10 @@
 .container {
 	width: 90%;
 	margin: 0 auto;
-	&_main {
+	&_page-main {
 		display: flex;
 		flex-direction: column;
+		align-items: center;
 		gap: 3rem;
 	}
 	&_icon {
@@ -30,12 +31,11 @@
 
 @media screen and (min-width: 1440px) {
 	.container {
-		width: 100%;
-		&_main {
-			display: grid;
-			grid-template-columns: 2fr 1fr;
-			grid-template-rows: repeat(12, auto);
-			grid-column-gap: 6rem;
+		width: 90%;
+		&_page-main {
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: flex-start;
 		}
 		&_icon {
 			display: none;

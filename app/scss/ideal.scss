@@ -1,11 +1,8 @@
 /* Ideal */
+.ideal {
+	margin-bottom: 2rem;
+}
 @media (min-width: 1440px) {
 	.ideal {
-		grid-column: 2/3;
-		grid-row: 1/2;
-		&_recipe {
-			grid-column: 2/3;
-			grid-row: 6/7;
-		}
 	}
 }
