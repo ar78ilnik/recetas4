@@ -31,7 +31,7 @@
 
 @media screen and (min-width: 1440px) {
 	.container {
-		width: 90%;
+		width: 1280px;
 		&_page-main {
 			flex-direction: row;
 			justify-content: space-between;
@@ -39,12 +39,6 @@
 		}
 		&_icon {
 			display: none;
-		}
-		&_recetas-main {
-			display: grid;
-			grid-template-columns: 2fr 1fr;
-			grid-template-rows: repeat(12, auto);
-			grid-column-gap: 6rem;
 		}
 	}
 }
