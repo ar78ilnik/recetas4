@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.min.css">
+		<title>Обо мне</title>
+	</head>
+	<body class="body">
+		<h1 class="title title_h1">Обо мне</h1>
+		@@include('html_components/_header.html')
+		<div class="container container_page-main">
+			<main class="main">
+				@@include('html_components/_me.html')
+				@@include('html_components/_comments.html')
+				@@include('html_components/_form-content.html')
+			</main>
+			<aside class="aside">
+				@@include('html_components/_ideal.html')
+				@@include('html_components/_category.html')
+				@@include('html_components/_alphabetical.html')
+				@@include('html_components/_new.html')
+				@@include('html_components/_tags.html')
+			</aside>
+		</div>
+		@@include('html_components/_footer.html')
+		<div class="body__back"></div>
+	</body>
+	<script src="js/script.js"></script>
+</html>
