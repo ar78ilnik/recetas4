@@ -27,13 +27,3 @@
 		}
 	}
 }
-
-@media (min-width: 1440px) {
-	.title {
-		grid-column: 1/2;
-		grid-row: 2/3;
-		&_hola {
-			align-self: flex-end;
-		}
-	}
-}
