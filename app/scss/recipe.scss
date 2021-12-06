@@ -3,13 +3,26 @@
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
+	&__meta {
+		font-size: calc((12/16)*1rem);
+	}
+	&__text {
+		font-family: "RobotoCondensed", sans-serif;
+	}
 	&__likes {
 		display: flex;
+	}
+	&__like,
+	&__comment {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
 	}
 	&__picture {
 		margin: 1em 0;
 	}
 	&__share {
+		font-size: calc((12/16)*1rem);
 		margin-bottom: 1em;
 	}
 	&__info {
