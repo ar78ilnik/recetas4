@@ -3,6 +3,12 @@
 	width: 90%;
 }
 
+@media (min-width: 768px) {
+	.main {
+		width: 100%;
+	}
+}
+
 @media (min-width: 1440px) {
 	.main {
 		width: 70%;

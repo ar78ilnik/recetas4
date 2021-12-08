@@ -1,4 +1,28 @@
 /* Preparation */
+.preparation {
+	&__number {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 45px;
+		height: 45px;
+		border: 2px solid var(--border);
+		border-radius: 50%;
+		font-size: 32px;
+		margin-bottom: 1rem;
+	}
+	&__text {
+		margin-bottom: 1.5rem;
+	}
+	&__hack {
+		font-family: "RobotoCondensed", sans-serif;
+		font-weight: 700;
+		border-top: 5px solid var(--green);
+		border-bottom: 5px solid var(--green);
+		padding-top: 28px;
+		padding-bottom: 28px;
+	}
+}
 @media (min-width: 1440px) {
 	.preparation {
 		grid-column: 1/2;

@@ -18,7 +18,8 @@
 		column-gap: 1em;
 		align-items: center;
 	}
-	&__item_search {
+	&__item_preparation {
+		margin-bottom: 2rem;
 	}
 	&__item_new{
 		display: flex;
@@ -59,6 +60,7 @@
 			flex-grow: 1;
 		}
 		&__item_menu {
+			justify-content: center;
 			border: 0;
 		}
 	}
