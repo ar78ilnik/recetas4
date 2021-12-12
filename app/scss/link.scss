@@ -26,5 +26,10 @@
 		&_menu {
 			width: 100%;
 		}
+		&_general:hover {
+			background-color: var(--btn-hover);
+			color: var(--white);
+			border: 1px var(--light) solid;
+		}
 	}
 }

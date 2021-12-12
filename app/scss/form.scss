@@ -57,6 +57,10 @@
 		font-size: 0.875rem;
 		padding: 0.875em 1.375em;
 	}
+	&__submit_words:hover {
+		background-color: var(--btn-hover);
+		color: var(--white);
+	}
 	&__input-wrapper {
 		margin-bottom: 1em;
 		&_radio {

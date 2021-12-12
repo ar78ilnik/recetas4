@@ -1,6 +1,11 @@
 .icon {
 		width: 24px;
 		height: 24px;
+	&_recipe {
+		fill: var(--white);
+		stroke-width: 0;
+		stroke: var(--border);
+	}
 	&_dot {
 		width: 5px;
 		height: 5px;
@@ -14,6 +19,15 @@
 	.icon {
 		&_dot {
 			display: none;
+		}
+	}
+}
+
+@media (min-width: 1440px) {
+	.icon {
+		&_recipe:hover {
+			filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+			fill: red;
 		}
 	}
 }
